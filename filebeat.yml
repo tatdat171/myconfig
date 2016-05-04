@@ -46,9 +46,8 @@ filebeat:
 
       # Optional additional fields. These field can be freely picked
       # to add additional information to the crawled log files for filtering
-      #fields:
-      #  level: debug
-      #  review: 1
+      fields:
+        ip_host: "IP server cua cac anh"
 
       # Set to true to store the additional fields as top level fields instead
       # of under the "fields" sub-dictionary. In case of name conflicts with the
